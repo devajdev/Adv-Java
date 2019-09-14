@@ -1,0 +1,12 @@
+create table info(
+		regno number(5), 
+		name varchar2(20), 
+		addr varchar2(20), 
+		age number(3), 
+		exp number(10), 
+		skills varchar2(20), 
+		ctc number(10)
+		location varchar2(20))
+
+create sequence regno start with 1 increment by 1
+/

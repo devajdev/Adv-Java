@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+  <display-name>PoolAppFirst_P104</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>PoolApp</servlet-name>
+  <servlet-class>com.nt.servlet.ConnPoolServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>PoolApp</servlet-name>
+  <url-pattern>/poolappurl</url-pattern>
+  </servlet-mapping>
+</web-app>

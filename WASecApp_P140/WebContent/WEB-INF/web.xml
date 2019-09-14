@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>WASecApp_P140</display-name>
+  <servlet>
+  <servlet-name>s2</servlet-name>
+  <servlet-class>com.nt.servlet.SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s2</servlet-name>
+  <url-pattern>/s2url</url-pattern>
+  </servlet-mapping>
+</web-app>

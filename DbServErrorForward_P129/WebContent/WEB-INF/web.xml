@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>DbServletErrorForward_P129</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>DbServlet</servlet-name>
+    <servlet-class>com.nt.servlet.DbServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DbServlet</servlet-name>
+    <url-pattern>/DbServleturl</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>ErrorServlet</servlet-name>
+    <servlet-class>com.nt.servlet.ErrorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ErrorServlet</servlet-name>
+    <url-pattern>/ErrorServleturl</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

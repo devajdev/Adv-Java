@@ -1,0 +1,72 @@
+<h1 style=color:red>Personal Details</h1>
+<form action="formurl" method="Post">
+<table border="1"> 
+  <tr>
+	<td>Name</td>
+	<td><input type="text" name="tname" value=""/></td>
+	</tr>
+	
+	 <tr>
+	<td>Age</td>
+	<td><input type="password" name="tage" value=""/></td>
+	</tr>
+	
+	<tr>
+	<td>Gender</td>
+	<td>
+	<input type="radio" name="gen" value="M" checked="checked"/>Male
+	<input type="radio" name="gen" value="F"/>FeMale
+	</td>
+	</tr>
+	
+	<tr>
+	<td>Address:</td>
+	<td>
+	<textarea name="taddress" rows="4" cols="20">Enter Address</textarea>
+	</td>
+	</tr>	
+	
+	<tr>
+	<td>Marital Status</td>
+	<td><input type="chechbox" name="ms" value="married"/>Married</td>
+	</tr>
+	
+	<tr>
+	<td>Qualification</td>
+	<td>
+	<select name="qlfy">
+	<option value="B.Tech">Engg</option>
+	<option value="MBBS">Medical</option>
+	<option value="B.A">Arts</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Courses:</td>
+<td><select name="crs" size="3" multiple="multiples">
+<option value="java">JAVA pkg</option>
+<option value="net">.NET pkgs</option>
+<option value="testing">Testing pkg</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Hobbies</td>
+<td>
+<input type="checkbox" name="hb" value="read" /> Reading
+<input type="checkbox" name="hb" value="stamps"/> Stamp Collection
+<input type="checkbox" name="hb" value="roaming" /> Travelling
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<input type="submit" value="submit" />
+<input type="reset" value="cancel" />
+</td>
+</tr>
+
+</table>
+</form>
